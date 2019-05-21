@@ -7,7 +7,7 @@ body{
 }
 
 #container{
-    height:200px;
+    height:100px;
 }
 
 #code{
@@ -18,30 +18,29 @@ body{
     color:transparent;
     caret-color: #fff;
     vertical-align: bottom;
-    z-index: 99;
-    width: 99.5%;
-    border: 1px solid #222;
-    background: #555;
+    position: absolute;
+    top: 80px;
+    width: 98.5%;
 }
 
 #code::selection{
     color:transparent;
-    background: rgba(50,50,50,150);
+    background: rgba(150,150,150,150);
 }
 
 #highlight{
     color: #fff;
-    background: transparent;
+    border: 1px solid #222;
+    background: #333344;
     position: relative;
     margin-bottom: 200px;
     display: block;
     width: 98.5%;
-    height: 99.5%;
+    height: 540px;
     position: absolute;
     top:80px;
-    z-index: 98;
-    padding-top: 5px;
-    padding-left: 3px;
+    /* padding-top: 5px;
+    padding-left: 3px; */
     white-space: pre-wrap;
 }
 
@@ -65,6 +64,10 @@ body{
 
 .primary{
     color: #6e85e9;
+}
+
+.number{
+    color: #e9b46e;
 }
 
 .comment{
